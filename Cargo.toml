@@ -1,7 +1,15 @@
 [package]
 name = "CLITextParser"
-version = "0.1.0"
-edition = "2021"
+name = "grrs"
+version = "0.0.2"
+authors = ["EljahSource, https://github.com/ElijahSource"]
+license = "MIT"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/ElijahSource/CLI-Text-Parser"
+repository = "https://github.com/ElijahSource/CLI-Text-Parser"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
